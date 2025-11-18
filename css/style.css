@@ -137,6 +137,7 @@ body {
 }
 
 .shopping-cart .cart-item {
+ 
   margin: 2rem 0;
   display: flex;
   align-items: center;
@@ -147,7 +148,10 @@ body {
 }
 
 .shopping-cart img {
+
+  width: 6rem;
   height: 6rem;
+   object-fit: cover;
   border-radius: 50%;
 }
 
@@ -546,6 +550,11 @@ footer .credit a {
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.Gambar-Modal{
+  width: 300px;
+  object-fit: cover;
 }
 
 .modal-container {
